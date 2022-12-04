@@ -1,8 +1,8 @@
 // Code your solution here
 const drivers = ['Bobby', 'Sammy', 'Sally', 'Annette', 'Sarah', 'Bobby']
 
-const findMatching = (p, q) => p.filter (p => p.toLowerCase() === q.toLowerCase())
+const findMatching = (a, b) => (a.filter (a => a.toLowerCase() === b.toLowerCase()))
 
-const fuzzyMatch = (p, q) => p.filter (p => p.charAt(0) === q.charAt(0))
+const fuzzyMatch = (a, b) => (a.filter (a => a.charAt(0) === b.charAt(0)))
 
-const matchName = (p, q) => p.filter (p => p.name === q)
+const matchName = (a, b) => (a.filter (a => a.name === b))
